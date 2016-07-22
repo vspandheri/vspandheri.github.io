@@ -1,0 +1,82 @@
+
+<?php include 'database.php'; ?>
+ 
+<?php
+ 
+// create a variable
+$msgs=$_POST['t1'];
+
+ 
+//Execute the query
+ 
+ 
+mysqli_query($connect,"INSERT INTO myguests (messages)
+		        VALUES ('$msgs')");
+				
+	if(mysqli_affected_rows($connect) > 0){
+	echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="page2.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="older\Hover-master\css\hover-min.css" media="screen" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+</head>
+<body class="a"><br>
+<br>
+<br>
+
+<div class="one">
+<p class="pika">About Me</p>
+<br><br>
+<p class="pika11">Hi, Im Vineet Sanjeev Pande, and Im a final year engineering student. I am looking for some exciting career opportunities in life that would help me grow a lot both technically and as an individual. I believe that one can understand the world a lot better if one tries to discover patterns in 
+everyday life, and store insightful knowledge discovered from these patterns or trends observed.</p>
+</div>
+<br><br><br>
+<div class="two">
+
+
+<p class="pika">Things you should know</p>
+<br><br>
+
+<p class="pika1">&nbsp;&nbsp;<i class="fa fa-anchor"></i>&nbsp;&nbsp;I love coding in Java!</p><br>
+<p class="pika1">&nbsp;&nbsp;<i class="fa fa-anchor"></i>&nbsp;&nbsp;Data mining fascinates me greatly.</p><br>
+<br><br><br><br><br><p class="pika1">&nbsp;&nbsp;<i class="fa fa-anchor"></i>&nbsp;&nbsp;Breaking Bad was AWESOME!!!</p><br>
+<p class="pika1">&nbsp;&nbsp;<i class="fa fa-anchor"></i>&nbsp;&nbsp;I like to keep up with the news.</p>
+
+</div>
+<div class="three">
+	<p class="pika">Get in touch</p>
+<br><br>
+<form method="post" action="processcore.php" id="form1" name="form1">
+	
+<input class="hvr-pulse-shrink" type="submit" value="Submit"/>
+</form><br>
+<p class="pika1">Thanks for leaving a message. You can leave another one here.</p><br>
+<textarea form="form1" id="t1" name="t1" rows="10" cols="162" placeholder="You can leave a message here."></textarea>
+</div>
+
+
+</body></html>';
+	
+} else {
+	echo "Employee NOT Added<br />";
+	echo mysqli_error ($connect);
+}

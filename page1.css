@@ -1,0 +1,67 @@
+
+.a{
+	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDjcZFRkrLSsrKzcrKystKysrLS4rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8VBQJJAikoikCKIJIgkcQJFAEUARxAA0AAawAA0AAaAAFAyiASSQSgMBJACkVEQQRRBEQgiiCSxrAGLGsOAzixrDgMYsaxYDGDG8FgMhrAABQMhoAAQARABJAklEEkgRiShIhBGIgioQRkUagCRrDIZAEhw41gM4saw4DGLG8GAxYLG8GA52Cx0sYsBhNVkADQABQMhoAAQCUSiCSShSIIogiiCMRgGNQRuQFGpFGoCkMhkOAMWNYsBnBY3gwGMFjdFgOdjNdLGbAc6zW6zQZBAAGgACAAaABJQEQQRBAkECYCBjUZjcAxuMxuAZGoI1AMakEagiiwnAZwWNigxWa3WaKxWa3WaDnWa3WaDFZbrIAEAKy0AAIAJIEQQRBAkEDCGgUbjMagNRuMRuA1G4xG4DUajMaghhEIJmtVmgGa1WaDNYrdYorNYrdYoMUNVkACAAIAAgAkgRgQEiECQYBMBBqNRhqA3G45xuA3GoxK1AbjUYalEa0s6tBoUaLQVZptZoorNNZoM1mtVigKyaAANACikAAQASQJJASEDRgIEskGjAgbjcc41KDpGpWIZQdJSxKdBvTrGrQaGjVoK0Wi0WgqzTaxaCtYprNAAgACAANAIEAElASSQKBUJBAkEDCyQajUrBlB0lMrGmUHTTrGnQb1axp0GtGs6tA6LRotA2s0WgFayqgQQAJAEEgAIBKJRBJIEQlGkCBLJBoskCWSDWnWUDcp1jToN6tY1aDejWdWg1o1nVoHWUgQQBUEAEgCCQIJAlAYggUCSQIgqFAgSEDSCBpBA0ggK0ICggISBIIEEAIQBJAEEgQKQSBgJJKJBASkCKQFJASkAJQJJAkkCSQKgoAkgCSAUJAgkASQJBAUkD/9k=");
+ background-size:     cover;                      /* <------ */
+               /* optional, center the image */
+
+}
+.img-circle1{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+    content: url("https://scontent.fbom1-2.fna.fbcdn.net/v/t1.0-9/13699957_739702226171843_2616790997569857615_n.jpg?oh=fe778969ded989200c213524934bcb8d&oe=582359AC");
+	border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+}
+/**/
+.img-circle2{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	content:url("https://scontent.fbom1-2.fna.fbcdn.net/v/t1.0-0/p206x206/13775364_739702222838510_972437512497358672_n.jpg?oh=7ba919c667f711437c60fe099d710ce8&oe=582A66F7");
+	border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+}
+
+}
+.fa1{
+	color: yellow;
+}
+.pika{
+	font-family: Lobster;
+	font-size: 37px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: yellow;
+}
+.pika1{
+	font-family: Cabin;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: white;
+}
+
+
+
+
+/*.container-fluid1 {
+	background-color: black;
+
+}*/
+
+/*.ss {
+	background-color: green;
+
+}*/
+
+/*#menu li{
+	min-width: 50%;
+}*/
+
