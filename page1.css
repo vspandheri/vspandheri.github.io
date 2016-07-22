@@ -1,6 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 .a{
-	color: blue;  
+	color: black;  
  
     background-size:     cover;                      /* <------ */
                /* optional, center the image */
@@ -31,7 +32,7 @@
 	color: yellow;
 }
 .pika{
-	font-family: Arial;
+	font-family: Lobster;
 	font-size: 37px;
 	font-style: normal;
 	font-variant: normal;
@@ -40,7 +41,7 @@
 	color: yellow;
 }
 .pika1{
-	font-family: Garamond;
+	font-family: Cabin;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
